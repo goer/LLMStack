@@ -1,0 +1,13 @@
+# nixpacks.toml
+[phases.setup]
+nixPkgs = ['...', 'cowsay']
+
+[phases.setup]
+nixPkgs = ["...", "ffmpeg"] # Install the ffmpeg package from Nix
+# aptPkgs = ["...", "wget"]   # Install the wget package with apt-get
+
+# [phases.build]
+# cmds = ['yarn run server:build']
+
+# [start]
+# cmd = 'yarn run server:start'
